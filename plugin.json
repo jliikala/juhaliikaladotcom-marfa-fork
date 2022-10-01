@@ -1,5 +1,27 @@
 {
-	"version": "1.0.8",
-	"title": "Marfa theme",
-	"description": "Micro.blog's Marfa theme."
+	"version": "1.0.0",
+	"title": "Marfa theme fork for juhaliikala.com",
+	"description": "A fork of Micro.blog's Marfa theme.",
+	"fields": [
+		{
+			"field": "params.twitter",
+			"label": "Twitter",
+			"placeholder": "Your Twitter username"
+		},
+		{
+			"field": "params.github",
+			"label": "GitHub",
+			"placeholder": "Your GitHub username"
+		},
+		{
+			"field": "params.instagram",
+			"label": "Instagram",
+			"placeholder": "Your Instagram username"
+		},
+		{
+			"field": "params.microdotblog",
+			"label": "Micro.blog",
+			"placeholder": "Your Micro.blog username"
+		}
+	]
 }
