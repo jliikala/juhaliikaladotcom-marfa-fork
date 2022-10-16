@@ -606,3 +606,7 @@ article #post-list li {
   font-weight: 500;
 }
 
+header.h-card a.cta {
+	margin-top: 0.5rem;
+	display: inline-block;
+}
