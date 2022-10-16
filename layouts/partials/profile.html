@@ -5,7 +5,8 @@
         <img id="avatar" class="u-photo" src="{{ .Site.Author.avatar }}" width="96" height="96" />
       </a>
       <h1 class="p-name" rel="me">{{ .Site.Author.name }}</h1>
-      <h4 class="p-role">Developer & Maker from Finland</h4>
+      {{- $bio := cond .IsHome site.Author.briefbio site.Author.aboutbio -}}
+      <h4 class="p-role">{{ $bio }}</h4>
     </header>
   </section>
 </div>
